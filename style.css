@@ -1,0 +1,251 @@
+
+/* データを読み込む */
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+body {
+ /* background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8));*/
+} 
+
+.header {
+    height: 70px;
+    background-color: #e3f2fd;   
+}
+
+.header h1 {
+    letter-spacing: 2px;
+    font-family: "Noto Sans Japanese";
+    padding-top: 10px;
+    border-bottom: solid 3px #44ED6C;
+    text-align: center;
+    position: relative;
+}
+
+.header h1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #E238B4;
+    bottom: -3px;
+    width: 45%;
+    text-align: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.no_one h1 {
+    border-bottom: solid 3px #44ED6C;
+    position: relative;
+}
+
+.no_one h1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #E238B4;
+    bottom: -3px;
+    width: 32%;
+}
+
+
+.btn-outline-primary {
+    color:  #E527FF;
+    font-family: "Noto Sans Japanese";
+}
+
+nav a {
+    font-family: "Noto Sans Japanese";
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Noto Serif Japanese"; 
+}
+
+.form-box {
+    padding: 0.5em 1em 2em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    width: 50%;
+    background: #FFF;
+    border: solid 2px #f2dae8;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
+.form-box h3 {
+    padding-top: 5px;
+}
+
+.form-inline input {
+    margin-top: 13px;
+}
+
+.groups {
+   margin: 5% 0;
+}
+
+.graduate {
+    padding-bottom: 7px; 
+}
+
+
+.image p{
+    text-align: center;
+}
+
+.parent_img {
+    margin: 5px;
+    margin-left: 0px;
+}
+
+#bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+}
+
+#photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+.modal-overlay {
+    z-index: 2;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+a.modal-open:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    position: fixed;
+    display: none;
+    z-index: 3;
+    width: 50%;
+}
+
+a.modal-close {
+    position:absolute;
+    top:0;
+    right:20px;
+    color:#b29c33;
+    font-size:35px;
+    line-height:1;
+    font-weight:bold;
+    text-decoration:none
+}
+
+a.modal-close:hover {
+    cursor: pointer;
+}
+
+
+.waku a img {
+    border: 2px solid white;
+}
+
+.waku .nogi a:hover img {
+    border: 2px solid #F66AE9;
+}
+
+.waku .keyaki a:hover img {
+    border: 2px solid #7BF077;
+}
+
+.waku {
+    /*background-image: url("../img/purple0099.png");*/
+    background-color: #eff3f6;
+}
+
+.nogi .top_name {
+    color: #FA72D5;
+}
+
+.keyaki .top_name {
+    color: #7BF077;
+}
+
+.content img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.modal-content {
+    background-color: #fffff8;
+}
+
+.modal-content .content div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 46%;
+}
+
+.content nav {
+    margin-top: 10px;
+}
+
+
+.nogi h5 {
+    padding: 0.2em;
+    background: linear-gradient(transparent 70%, #E680FB 70%);
+    font-family: "Rounded Mplus 1c";
+}
+
+.keyaki h5 {
+    padding: 0.2em;
+    background: linear-gradient(transparent 70%, #7BF077 70%);
+    font-family: "Rounded Mplus 1c";
+}
+
+.content div {
+    font-family: "Noto Sans Japanese";
+}
+
+h3 {
+    font-family: "Rounded Mplus 1c";
+}
+
+table {
+    margin: auto;
+}
+
+.search_result h2 {
+    /*font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;*/
+    font-family: "Noto Sans Japanese";
+    padding-top: 10px;
+    border-left: solid 4px #f7f06e;
+}
+
+.detail h5 {
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+/*乃木坂のサムネイルのみリサイズ*/
+.nogi .thumbnail {
+    max-width: 197px;
+    height: auto;
+}
